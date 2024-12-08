@@ -8,4 +8,8 @@ Home PAGER
 
 The source for this page is in `content/index.md`.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Tjena! 
+
+Detta är jag.
+
+![Gigachad](%assets_url%/img/gigachad.jpg)

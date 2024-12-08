@@ -17,6 +17,7 @@ ul {
 html,
 body {
     height: 100%;
+    padding: 10px;
 }
 
 /* Placement */
@@ -24,11 +25,15 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #e2e2e2;
 }
 
 .main {
     flex: 1 0 auto;
+}
+
+.logo {
+    max-width: 200px;
 }
 
 .header,
@@ -97,6 +102,16 @@ body {
     font-family: sans-serif;
     line-height: 1.5rem;
     color: #444;
+}
+
+.nav a {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background-color: #222;
+    color: #e2e2e2;
 }
 
 p,
